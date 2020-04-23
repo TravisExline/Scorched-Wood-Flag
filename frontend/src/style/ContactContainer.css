@@ -1,0 +1,28 @@
+.contact-container {
+    text-align: center;
+}
+
+.contact-form {
+    padding-top: 55px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    row-gap: 10px;
+}
+
+.name-input {
+    display: grid;
+    grid-column: 3 / 4;
+    font-size: 20px;
+}
+
+.email-input {
+    display: grid;
+    grid-column: 3 / 4;
+    font-size: 20px;
+}
+
+.message-input {
+    display: grid;
+    grid-column: 3 / 4;
+    font-size: 20px;
+}

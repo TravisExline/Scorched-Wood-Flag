@@ -1,10 +1,11 @@
 import React from 'react'
 import NavBar from '../components/NavBar'
+import '../style/ContactContainer.css'
 
 class ContactContainer extends React.Component {
     render() {
         return (
-            <div>
+            <div className='contact-container'>
                 <NavBar />
                 <form className='contact-form'>
                     <input className='name-input' type='text' name='customer-name' placeholder='Enter Your Name'/>
