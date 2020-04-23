@@ -6,12 +6,12 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-flags = Flag.create([{picture: 'C:\Users\Ellyn\Desktop\Burned Wood Flags Inc\backend\Flag Photos\3.jpg'},
-{picture: 'C:\Users\Ellyn\Desktop\Burned Wood Flags Inc\backend\Flag Photos\4.jpg'},
-{picture: 'C:\Users\Ellyn\Desktop\Burned Wood Flags Inc\backend\Flag Photos\7.jpg'},
-{picture: 'C:\Users\Ellyn\Desktop\Burned Wood Flags Inc\backend\Flag Photos\8.jpg'},
-{picture: 'C:\Users\Ellyn\Desktop\Burned Wood Flags Inc\backend\Flag Photos\9.jpg'},
-{picture: 'C:\Users\Ellyn\Desktop\Burned Wood Flags Inc\backend\Flag Photos\11.jpg'},
-{picture: 'C:\Users\Ellyn\Desktop\Burned Wood Flags Inc\backend\Flag Photos\13.jpg'},
-{picture: 'C:\Users\Ellyn\Desktop\Burned Wood Flags Inc\backend\Flag Photos\unnamed.jpg'},
-{picture: 'C:\Users\Ellyn\Desktop\Burned Wood Flags Inc\backend\Flag Photos\slide5.jpg'}])
+flags = Flag.create([{picture: 'C:\Users\Ellyn\Desktop\Flag Photos\3.jpg'},
+{picture: 'C:\Users\Ellyn\Desktop\Flag Photos\4.jpg'},
+{picture: 'C:\Users\Ellyn\Desktop\Flag Photos\7.jpg'},
+{picture: 'C:\Users\Ellyn\Desktop\Flag Photos\8.jpg'},
+{picture: 'C:\Users\Ellyn\Desktop\Flag Photos\9.jpg'},
+{picture: 'C:\Users\Ellyn\Desktop\Flag Photos\11.jpg'},
+{picture: 'C:\Users\Ellyn\Desktop\Flag Photos\13.jpg'},
+{picture: 'C:\Users\Ellyn\Desktop\Flag Photos\unnamed.jpg'},
+{picture: 'C:\Users\Ellyn\Desktop\Flag Photos\slide5.jpg'}])

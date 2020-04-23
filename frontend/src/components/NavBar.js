@@ -14,7 +14,7 @@ const NavBar = () =>
         </NavLink>
         <NavLink className='flags-link'
             to='/flags'
-            exact>Original Hand Made Flags
+            exact>Original Hand Made Wood Flags
         </NavLink>
         <NavLink className='contact-link'
             to='/contact'
