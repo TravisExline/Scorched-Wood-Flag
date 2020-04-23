@@ -11,6 +11,7 @@ class ContactContainer extends React.Component {
                     <input className='name-input' type='text' name='customer-name' placeholder='Enter Your Name'/>
                     <input className='email-input' type='text' name='customer-email' placeholder='Enter Your Email Address' />
                     <textarea className='message-input' type='text' name='customer-message' placeholder='Enter Your Message' />
+                    <input className='submit-contact' type='submit' name='submit' />
                 </form>
             </div>
         )
