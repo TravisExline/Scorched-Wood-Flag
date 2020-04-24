@@ -4,7 +4,7 @@ class FlagCard extends React.Component {
     render() {
         return (
             <div>
-                <img src={this.props.flag.picture} />
+                <img src={this.props.flag} />
             </div>
         )
     }

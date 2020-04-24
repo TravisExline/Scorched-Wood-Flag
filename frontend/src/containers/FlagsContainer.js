@@ -3,27 +3,29 @@ import FlagCard from '../components/FlagCard'
 import NavBar from '../components/NavBar'
 import {connect} from 'react-redux'
 import {fetchFlags} from '../actions/FlagActions'
+import PhotoOne from '../Flag Photos/3.jpg'
+import PhotoTwo from '../Flag Photos/4.jpg'
+import PhotoThree from '../Flag Photos/7.jpg'
+import PhotoFour from '../Flag Photos/11.jpg'
+import PhotoFive from '../Flag Photos/12.jpg'
+import PhotoSix from '../Flag Photos/slide5.jpg'
+import PhotoSeven from '../Flag Photos/unnamed.jpg'
 
 class FlagsContainer extends React.Component {
 
-    componentDidMount() {
-        this.props.fetchFlags()
-    }
-
     render() {
+        const flags = [PhotoOne, PhotoTwo, PhotoThree, PhotoFour, PhotoFive, PhotoSix. PhotoSeven]
         return (
             <div className='flag-container'>
                 <NavBar />
-                {this.props.flags.map((flag) => (
-                    <FlagCard key={flag.id} flag={flag}/>
+                {flags.map((flag) => (
+                    <FlagCard flag={flag}/>
                 ))}
             </div>
         )
     }
 }
 
-const mapStateToProps = (state) => {
-    return {flags: state.flagReducer}
-}
 
-export default connect(mapStateToProps, {fetchFlags})(FlagsContainer)
+
+export default connect(null, {fetchFlags})(FlagsContainer)

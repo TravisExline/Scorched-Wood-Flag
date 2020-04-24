@@ -5,7 +5,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <h1 className="company-name">Scorched Wood Flags, Inc.</h1>
+      <h1 className="company-name">Scorched Flag Co.</h1>
       <NavBar />
     </div>
   );
