@@ -19,6 +19,19 @@ class FlagsContainer extends React.Component {
         return (
             <div className='navbar-container'>
                 <NavBar />
+                <p>Contact me with a flag size and style to place an order!</p>
+                <div className='pricing-container'>
+                    <h2>Flag Pricing</h2>
+                    <p>Large Flag: $$$</p>
+                    <p>Medium Flag: $$</p>
+                    <p>Small Flag: $</p>
+                </div>
+                <div className='sizing-container'>
+                    <h2>Flag Sizing</h2>
+                    <p>Large Flag: ###</p>
+                    <p>Medium Flag: ##</p>
+                    <p>Small Flag: #</p>
+                </div>
                 <div className='flag-container'>
                 {flags.map((flag) => (
                     <FlagCard flag={flag}/>
